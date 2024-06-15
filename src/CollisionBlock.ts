@@ -5,9 +5,9 @@ export class Collisionblock {
   height: number;
   x: number;
   y: number;
-  constructor(game: Game, x: number, y: number) {
+  constructor(game: Game, x: number, y: number, h: number) {
     this.width = 16;
-    this.height = 16;
+    this.height = h;
     this.x = x;
     this.y = y;
   }
